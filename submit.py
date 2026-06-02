@@ -15,8 +15,8 @@ def main() -> None:
         "action_run_link": f"{server_url}/{repository}/actions/runs/{run_id}",
         "email": "akshayvanaparthy@outlook.com",
         "name": "Akshay Vanaparthi",
-        "repository_link": f"{server_url}/{repository}",
-        "resume_link": "https://www.linkedin.com/in/akshay-v-ai",  # replace if you'd rather link a PDF
+        "repository_link": "https://github.com/akvanaparthy/B12-Full-Stack-Engineer-Task",
+        "resume_link": "https://files.myresumebuilder.fyi/1/00_Akshay_V_B12_6a1c987e9111f771d1a15a35.pdf",
         "timestamp": datetime.now(timezone.utc)
         .isoformat(timespec="milliseconds")
         .replace("+00:00", "Z"),
